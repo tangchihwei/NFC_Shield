@@ -35,10 +35,10 @@ import Adafruit_PN532 as PN532
 # SCLK = 25
 
 # Configuration for a BeagleBone Black:
-CS   = 'P8_7'
-MOSI = 'P8_8'
-MISO = 'P8_9'
-SCLK = 'P8_10'
+CS   = 'P9_17'
+MOSI = 'P9_18'
+MISO = 'P9_21'
+SCLK = 'P9_22'
 
 # Create an instance of the PN532 class.
 pn532 = PN532.PN532(cs=CS, sclk=SCLK, mosi=MOSI, miso=MISO)
